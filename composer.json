@@ -1,5 +1,5 @@
 {
-    "name": "socialiteproviders/patreon",
+    "name": "thomasjosif/patreon",
     "description": "Patreon OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "keywords": [
