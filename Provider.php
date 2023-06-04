@@ -52,8 +52,7 @@ class Provider extends AbstractProvider
                 'Authorization' => 'Bearer '.$token,
             ],
             RequestOptions::QUERY => [
-                'memberships',
-                'memberships.currently_entitled_tiers',
+                'include' => 'memberships,memberships.currently_entitled_tiers',
                 'fields[user]' => 'about,created,email,first_name,full_name,image_url,last_name,social_connections,thumb_url,url,vanity',
             ],
         ]);

@@ -1,7 +1,7 @@
 # Patreon
 
 ```bash
-composer require socialiteproviders/patreon
+composer require thomasjosif/patreon
 ```
 
 ## Installation & Basic Usage
@@ -42,6 +42,8 @@ return Socialite::driver('patreon')->redirect();
 ```
 
 ### Returned User fields
+
+This package will also return the ``currently_entitled_tiers`` that the API key can access. 
 
 - ``id``
 - ``nickname``
